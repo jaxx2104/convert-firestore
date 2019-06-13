@@ -1,0 +1,32 @@
+{
+  "name": "convert-firestore",
+  "version": "0.1.0",
+  "description": "Convert Realtime Database to Cloud Firestore",
+  "main": "main.js",
+  "scripts": {
+    "format": "prettier --write './**/*.{js,ts,json,md}'",
+    "lint": "eslint --fix '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "jaxx2104/convert-firestore",
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "realtime"
+  ],
+  "author": "jaxx2104",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "firebase": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.0"
+  }
+}
